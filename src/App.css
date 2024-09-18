@@ -1,0 +1,23 @@
+body{
+    overflow: hidden;
+}
+.scrollside{
+    scrollbar-width: none;
+}
+
+.search{
+     transform-origin: left;
+    animation: show .3s ease-in-out;
+
+}
+
+@keyframes show {
+    0%{
+        width: 0;;
+        opacity: 0;
+    }
+   100%{
+    width: 84%;
+    opacity: 1;
+    }
+}
